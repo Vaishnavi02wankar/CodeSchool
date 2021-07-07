@@ -1,0 +1,277 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+/********************************* header part ****************************************/
+
+
+.header{
+    text-align: center;
+    color: black;
+    padding: 10rem;
+     background: linear-gradient(220deg, #000 50%, #FD3A2D 0%);
+    z-index: -4;
+}
+
+   /************************** header buttons *****************************/
+
+.header h1{
+    font-size: 5.0rem;
+    color:#FFF;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.header-section{
+    width: 100%
+    height:inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+                  
+.header-buttons{
+    padding-top: 4.5rem;
+
+}
+
+.header-buttons a{
+    border: 0.2rem solid #fff;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 1rem 3rem;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.header-buttons a:hover{
+    color: #000;
+    background: #FD3A2D ;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.7);
+}
+
+/******************************* header buttons end *********************************/
+
+/******************************************** header end ***********************************************/
+
+
+/*****************************************  programming start *************************************/
+
+
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: 10rem 0;
+    text-align: center;
+}
+
+.extra-div{
+    background: #fff;
+    border: medium none;
+    border: 0.1rem solid #000;
+    padding: 4rem!important;
+    border-radius: .3rem;
+    transition: 0.3s;
+}
+
+.extra-div h2{
+    font-size: 0.9rem;
+    margin: 2rem 0 1.5rem 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: .4rem;
+}
+
+.extra-div:hover{
+ box-shadow: 0 0 20px 0 rgba(0,0,0,0.9);
+ transform: translateY(-25px);
+}
+
+.extra-div h2{
+    font-size: 2rem;
+}
+/**************************************** programming END ********************************************/
+
+
+/******************************************* footer PART START ******************************************/
+
+
+.footer-top p{
+    color: #fff;
+    line-height: 25px;
+}
+
+.footer-top h2,h3{
+    color: #fff;
+}
+
+.footer-top h2{
+    font-size: 18px;
+}
+
+.footer-top
+{
+    background: black;
+    padding: 80px 0;
+}
+
+.segment-one h3{
+    font-family: cursive;
+    color: #fff;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
+
+.segment-two h2{
+    color: #fff;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.segment-two h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+
+.segment-two ul li a{
+    color: #fff!important;
+    text-decoration: none;
+}
+
+.segment-three h2{
+    color: #fff;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.segment-three h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-three a{
+    background: #c65039;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+
+.segment-four h2{
+    color: #fff;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.segment-four h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+
+.segment-four ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-four ul li a{
+    color: #fff!important;
+    text-decoration: none;
+}
+
+.segment-four ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+}
+
+.bottom-footer{
+    text-align: center;
+    color: white;
+    line-height: 75px;
+    background: black;
+}
+.segment-one{
+    padding-top:5px;
+}
+.segment-two{
+    padding-top:20px;
+}
+.segment-three{
+    padding-top:20px;
+}
+.segment-four{
+    padding-top:20px;
+}
+/* ********************************************* fo0tter end ************************************ */
+
+
+@media only screen and (max-width: 768px) {
+    
+    
+    .header h1{
+        font-size: 2.5rem;
+    }
+    .header-buttons a{
+        font-size: 1rem;
+            padding: 0.5rem;
+    border: 0.1rem solid #fff;
+
+    }
+    .header{
+        padding: 3rem;
+}
+    .header-buttons{
+    padding-top: 2rem;
+
+    }
+    
+    .header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.extra-div h2{
+    font-size: 1.5rem;}
+}
+
+    @media only screen and (max-width: 427px) {
+    
+    .header-extradiv .container{
+    width: 89%;
+    height: auto;
+    text-align: center;
+        }
+
+   
+}
